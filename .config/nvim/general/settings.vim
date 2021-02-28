@@ -82,6 +82,7 @@ if !isdirectory(g:backupdir)
    call mkdir(g:backupdir, 'p')
 endif
 let &backupdir=g:backupdir
+let g:netrw_home=$XDG_CACHE_HOME.'/nvim'
 
 set backupcopy=yes  " copy the original file to backupdir and overwrite it
 
@@ -174,7 +175,8 @@ set tildeop
 " see https://stackoverflow.com/q/4760428/6064933
 set nojoinspaces
 
-set synmaxcol=80  " Text after this column number is not highlighted
+set colorcolumn=80,120
+set synmaxcol=120  " Text after this column number is not highlighted
 set nostartofline
 
 " External program to use for grep command

@@ -6,7 +6,5 @@
 	rebase = false
 [commit]
 	gpgsign = true
-[http]
-	cookiefile = /home/mufy/.gitcookies
 [init]
 	defaultBranch = main
