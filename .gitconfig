@@ -1,0 +1,12 @@
+[user]
+	name = Muhammad Umer Farooq
+	email = mufy.aheer@gmail.com
+	signingkey = AE37B64C39FC1D56
+[pull]
+	rebase = false
+[commit]
+	gpgsign = true
+[http]
+	cookiefile = /home/mufy/.gitcookies
+[init]
+	defaultBranch = main
